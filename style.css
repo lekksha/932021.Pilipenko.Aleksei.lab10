@@ -1,0 +1,121 @@
+html,body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+.cirtains{
+    height: 100%;
+    padding-bottom: 0;
+    position: absolute;
+    bottom:0;
+    display:block;
+    left: 50%;
+    transform: translate(-50%,0);
+    cursor: pointer;
+    transition: 0.2s;
+    background-size: auto;/*?????  */
+    z-index: 1;
+}
+.cirtains:hover
+{
+    bottom: 5%;
+}
+.div-torch{
+    position: absolute;
+    left:50%;
+    height: 40%;
+    transform: translate(-50%,0);
+}
+.torch{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: -1;
+}
+.turnoff{
+    transition: top 0.5s ease;
+    position: absolute;
+    height: 20%;
+    top:7vh;
+    transform: translate(-200%,0);
+    z-index:-2;
+}
+.hover-torch{
+    position: absolute;
+    top:28%;
+    width: 1.7vh;
+    left:-3.4vh;
+    z-index: 1;
+}
+.hover-torch:hover{
+    cursor: pointer;
+}
+.light{
+    transition: opacity 0.5s ease;
+    position: absolute;
+    height: 0;
+    width: 11.3vh;
+    top:11.3%;
+    border-bottom: 80vh solid yellow;
+    border-left: 40vh solid transparent;
+    border-right: 40vh solid transparent;
+    left:50.3%;
+    z-index: 0;
+    transform: translate(-50%,0);
+    pointer-events:none;
+}
+.magicbox{
+    position: absolute;
+    height: 100%;
+    width:70vh;
+    top:60%;
+    left:50%;
+    z-index: -3;
+    transform: translate(-50%,0);
+}
+.magic-girl{
+    width: 60%;
+    position: absolute;
+}
+.hat{
+    width:16%;
+    position: absolute;
+    left:60%;
+    top:20%;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+.rabbit{
+    position: absolute;
+    transition: top 0.5s ease;
+    width:8%;
+    left:63.5%;
+    top:9%;
+    z-index: 0;
+    cursor: pointer;
+}
+.bird{
+    position: absolute;
+    transition: top 0.5s ease;
+    width: 7%;
+    left:64%;
+    top:20%;
+    z-index: -1;
+    cursor: pointer;
+}
+
+
+@keyframes turn{
+    0%{
+        top:9%;
+    }
+    50%{
+        top:18.5%
+    }
+    100%{
+        top:9%;
+    }
+}
