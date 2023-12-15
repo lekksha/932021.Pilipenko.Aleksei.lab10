@@ -13,7 +13,7 @@
 ### Фокус 1. Конферанс
 Начинается все с занавеса.
 
-![Test3-Image1](./Images/Test3-Image1.png)
+![Test3-Image1](https://raw.githubusercontent.com/lekksha/932021.Pilipenko.Aleksei.lab10/main/Test3-Image1.png)
 
 Как делаем занавес: берем картинку, добавляем ее на страницу, растягиваем по ширине и высоте на всю страницу. Дальше идут особенности:
 
